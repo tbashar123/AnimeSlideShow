@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 100px;
+    background: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    position: fixed;
+    z-index: 12;
+}
+
+.logo {
+    font-family: 'Aclonica';
+    font-size: 40px;
+    padding: 50px;
+    margin-left: 50px;
+    text-align: center;
+}
+
+.logo a {
+    color: orange;
+    text-decoration: none;
+}
+
+.carousel-item img {
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 100vh;
+}
+
+.box {
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    padding: 25px;
+}
+
+
+/* .dropdown {
+    float: inline-start;
+    list-style: none;
+}
+
+.dropdown li {
+    display: inline-block;
+}
+
+.dropdown li a {
+    padding: 3px;
+} */
+
+.nav2 {
+    font-family: 'poppins';
+    font-size: 30px;
+    float: right;
+    list-style: none;
+}
+
+.nav2 li {
+    display: inline-block;
+}
+
+.nav2>button {
+    color: green;
+}
+
+.nav2 li a {
+    padding: 15px;
+}
+
+.nav1 {
+    font-family: 'poppins';
+    font-size: 30px;
+    float: left;
+    list-style: none;
+}
+
+.nav1 li {
+    display: inline-block;
+}
+
+.nav1>button {
+    color: red;
+}
+
+.nav1 li a {
+    padding: 15px;
+}
